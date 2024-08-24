@@ -17,7 +17,9 @@ Q-learning, Q-değer fonksiyonunu öğrenir. Bu fonksiyon, bir durumda (s) belir
 
 ### 3. **Öğrenme Güncellemesi**
 
-Q-değerleri, ödüller ve gelecekteki ödüller kullanılarak güncellenir. Bu güncelleme işlemi şu formülle yapılır: Q(s,a)←Q(s,a)+α[r+γmax⁡a′Q(s′,a′)−Q(s,a)]Q(s, a) \leftarrow Q(s, a) + \alpha \left[ r + \gamma \max_{a'} Q(s', a') - Q(s, a) \right]Q(s,a)←Q(s,a)+α[r+γmaxa′​Q(s′,a′)−Q(s,a)]
+Q-değerleri, ödüller ve gelecekteki ödüller kullanılarak güncellenir. Bu güncelleme işlemi şu formülle yapılır:
+
+![bellman denklemi](image.png)
 
 - α: Öğrenme oranı (0 ile 1 arasında bir değer, ne kadar hızlı öğrenileceğini belirler)
 - r: Anlık ödül
