@@ -3,4 +3,4 @@ Bu repo, Deep Learning,Pytorch ve Deep Reinforcement Learning konusundaki çalı
 
 #### İçindekiler
 ***
-[Q Learning Nedir?](Q%20Learning/Q%20Learning.md)
+[Q Learning Nedir?](reinforcement_learning/Q%20Learning/Q%20Learning.md)
